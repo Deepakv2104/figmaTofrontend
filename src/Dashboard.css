@@ -1,0 +1,89 @@
+.container {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.sidebar {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: -101%;
+  padding-bottom: 101%;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  width: 150px;
+  border-radius: 20px;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.sidebar h2 {
+  font-size: 30px; /* Adjust the font size as needed */
+  font-weight: bold;
+}
+.sidebar li {
+  margin-bottom: 10px;
+}
+
+.sidebar i {
+  margin-right: 10px;
+}
+
+.main {
+  flex: 4;
+  padding: 20px;
+  overflow: scroll;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 221.05px;
+  height: 120px;
+
+  margin-bottom: 20px;
+  top: 129px;
+  left: 380px;
+  padding: 20px;
+  background-color: #f4f4f4;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+}
+
+.card i {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.card h2 {
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 24px;
+  font-weight: bold;
+}
+.row-container {
+  display: flex;
+}
+
+.column {
+  flex: 1;
+  margin-right: 20px;
+}
